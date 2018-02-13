@@ -1,6 +1,6 @@
 # Portfolio site build on Gatsby
 
-## Develop files are kept on develop branch.
+## Develop files are kept on [develop](https://github.com/zetdotcom/zetdotcom.github.io/tree/develop) branch.
 
 ## Master branch keeps static files.
 
