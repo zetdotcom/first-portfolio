@@ -1,0 +1,21 @@
+.main {
+	display: flex;
+	// overflow: hidden;
+	height: 100vh;
+	background: url('../images/background.jpg') center center / cover no-repeat;
+}
+
+.menu {
+	display: flex;
+	flex: 1;
+	// overflow: auto;
+	height: 100%;
+	// background: blue;
+	color: white;
+	// background:
+}
+
+.content {
+	overflow: auto;
+	flex: 9;
+}
