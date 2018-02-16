@@ -3,33 +3,31 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Navigation from '../components/Navigation/Navigation';
-import './index.css';
+import './index.scss';
 import './layouts.scss';
 
-const TemplateWrapper = ({ children }) => (
-	<div className="main">
-		<Helmet
-			title="ZETDOTCOM"
-			meta={[
-				{
-					name: 'description',
-					content: 'Sample'
-				},
-				{
-					name: 'keywords',
-					content: 'sample, something'
-				}
-			]}
-		/>
-		<div className="menu">
-			<Navigation />
+const TemplateWrapper = ({children}) => (
+		<div className="main">
+				<Helmet
+						title="ZETDOTCOM"
+						meta={[
+						{
+								name: 'description',
+								content: 'Sample'
+						}, {
+								name: 'keywords',
+								content: 'sample, something'
+						}
+				]}/>
+				<div className="menu">
+						<Navigation/>
+				</div>
+				<div className="content">{children()}</div>
 		</div>
-		<div className="content">{children()}</div>
-	</div>
 );
 
 TemplateWrapper.propTypes = {
-	children: PropTypes.func
+		children: PropTypes.func
 };
 
 export default TemplateWrapper;

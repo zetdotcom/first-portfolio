@@ -2,14 +2,26 @@
 	display: flex;
 	// overflow: hidden;
 	height: 100vh;
-	background: url('../images/background.jpg') center center / cover no-repeat;
+
+	background: linear-gradient(
+			to right,
+			rgba(1, 29, 72, 0.97) 120px,
+			rgba(39, 125, 223, 0.639),
+			rgba(150, 196, 229, 0.437)
+		),
+		url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+
+	background-attachment: fixed;
 }
 
 .menu {
 	display: flex;
 	flex: 1;
 	// overflow: auto;
-	height: 100%;
+	height: 100vh;
+	// overflow: hidden;
 	// background: blue;
 	color: white;
 	// background:
@@ -18,4 +30,6 @@
 .content {
 	overflow: auto;
 	flex: 9;
+	// background: linear-gradient(to left top, rgba(39, 125, 223, 0.639), rgba(1, 31, 75, 0.729));
+	// background: linear-gradient ((0, 40, 101, 0.667), (0, 90, 150, 0.5));
 }

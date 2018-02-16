@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:200, 200i, 300, 400, 600, 700, 900');
+
 html {
-	font-family: sans-serif;
+	font-family: 'Titillium Web', sans-serif !important;
 	-ms-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
 }
@@ -7,6 +9,7 @@ body {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
+	font-family: 'Titillium Web', sans-serif !important;
 }
 article,
 aside,

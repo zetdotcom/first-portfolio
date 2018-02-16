@@ -1,6 +1,56 @@
+@import '../../styles/variables.scss';
+
 .nav {
-	color: white;
+	color: $fontLight;
 	flex: 1;
-	max-width: 120px;
-	background: linear-gradient(to left, rgba(75, 75, 75, 0.85), rgba(145, 145, 145, 0.85));
+	// overflow: hidden;
+	// align-self: center;
+
+	ul {
+		list-style: none;
+		text-transform: uppercase;
+		// height: 90vh;
+		height: 100vh;
+		padding: 40px 0;
+		display: flex;
+		margin-bottom: 0;
+		flex-flow: column;
+		justify-content: space-between;
+		letter-spacing: 1px;
+		transition: all 0.5s;
+	}
+	li {
+		transition: all 1s;
+	}
+	li:hover {
+		color: $orange;
+		cursor: pointer;
+		.menuIcon {
+			animation: rotateY 0.4s ease-in-out;
+		}
+		.desc {
+			animation: rotateX 0.4s ease-in-out;
+		}
+	}
+	.menuIcon {
+		font-size: 40px;
+	}
+}
+
+@keyframes rotateY {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotateY(360deg);
+	}
+}
+
+@keyframes rotateX {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotateX(360deg);
+	}
 }
