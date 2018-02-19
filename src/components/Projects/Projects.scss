@@ -1,0 +1,58 @@
+@import '../../styles/variables.scss';
+
+.wrapper {
+	position: relative;
+}
+// .rotateDiv {
+// 	width: 100%;
+// 	height: 100px;
+// 	position: absolute;
+// 	background: $blue;
+// 	top: -50px;
+// 	clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
+// }
+
+.projects {
+	background: rgba(255, 255, 255, 0.8);
+	color: black;
+	display: flex;
+	overflow: hidden;
+	border-top: 12px solid $darkBlue;
+	// clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
+	.title {
+		background: orange;
+		writing-mode: vertical-lr;
+		flex: 0 auto;
+		width: 70px;
+	}
+	.title,
+	.skillsList {
+		padding-top: 55px;
+	}
+	.projectsList {
+		padding-top: 15px;
+		a {
+			text-decoration: none;
+		}
+		a:visited {
+			color: $darkBlue;
+		}
+		button {
+			color: $darkBlue;
+			border-radius: 4px;
+			border: 3px solid $darkBlue;
+			background: transparent;
+			margin: 0 5px;
+		}
+		button:hover {
+			position: relative;
+			top: -2px;
+			box-shadow: 1px 10px 20px -4px rgba(0, 0, 0, 0.71);
+		}
+		button:active {
+			top: 2px;
+			color: blue;
+			background: lightblue;
+		}
+	}
+}

@@ -1,0 +1,54 @@
+[
+	{
+		"name": "HTML5",
+		"icon": "../images/html5.jpg"
+	},
+	{
+		"name": "CSS3",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "JavaScript",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "Sass",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "React",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "Bootstrap",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "Responsive Web Design",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "jQuery",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "ES6",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "AJAX/JSON",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "Gatsby",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "GIT",
+		"icon": "../images/css3.jpg"
+	},
+	{
+		"name": "NPM",
+		"icon": "../images/css3.jpg"
+	}
+]
