@@ -5,9 +5,11 @@ import Skills from '../components/Skills/Skills';
 import Projects from '../components/Projects/Projects';
 import About from '../components/About/About';
 import Contact from '../components/Contact/Contanct';
+import Wip from '../components/Wip/Wip';
 
 const IndexPage = () => (
 	<div>
+		<Wip />
 		<HomePage />
 
 		<Skills id="skills" />

@@ -17,16 +17,12 @@ const Projects = () => {
 							return (
 								<li key={key}>
 									{item.title}
-									<button>
-										<a href={item.link} target="blank">
-											Visti Website
-										</a>
-									</button>
-									<button>
-										<a href={item.git} target="blank">
-											Git repo
-										</a>
-									</button>
+									<a href={item.link} target="blank">
+										<button>Visti Website</button>
+									</a>
+									<a href={item.git} target="blank">
+										<button>Git repo</button>
+									</a>
 								</li>
 							);
 						})}
