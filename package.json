@@ -1,8 +1,8 @@
 {
-	"name": "gatsby-starter-default",
-	"description": "Gatsby default starter",
+	"name": "michal-z-portfolio",
+	"description": "Portfolio website",
 	"version": "1.0.0",
-	"author": "Kyle Mathews <mathews.kyle@gmail.com>",
+	"author": "Michal Zadarnowski <michal.zadarnowski@gmail.com>",
 	"homepage": "https://zetdotcom.github.io/zetdotcom.github.io",
 	"dependencies": {
 		"gatsby": "^1.9.158",
@@ -13,9 +13,7 @@
 		"react-helmet": "^5.2.0",
 		"react-icons": "^2.2.7"
 	},
-	"keywords": [
-		"gatsby"
-	],
+	"keywords": [ "gatsby" ],
 	"license": "MIT",
 	"main": "n/a",
 	"scripts": {
