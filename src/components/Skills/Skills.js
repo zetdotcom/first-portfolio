@@ -6,7 +6,7 @@ import SkillsList from '../../json/skills.json';
 
 const Skills = () => {
 	return (
-		<div className="wrapper">
+		<div className="wrapper" id="skills">
 			<div className="skills">
 				<div className="title">
 					<h1>Skills</h1>
