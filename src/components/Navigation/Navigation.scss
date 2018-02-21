@@ -33,6 +33,12 @@
 		-webkit-transition: all 0.5s;
 		transition: all 0.5s;
 	}
+	a {
+		text-decoration: none;
+	}
+	a:visited {
+		color: $fontLight;
+	}
 	.menuIcon {
 		transition: transform 0.4s;
 	}

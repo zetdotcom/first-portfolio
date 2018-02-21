@@ -10,3 +10,32 @@ html {
 body {
 	font-family: 'Nanum Gothic Coding', monospace !important;
 }
+
+.container {
+	display: flex;
+	height: 100vh;
+	overflow-y: hidden;
+
+	background: linear-gradient(
+			to right,
+			rgba(1, 29, 72, 0.97) 120px,
+			rgba(39, 125, 223, 0.639),
+			rgba(150, 196, 229, 0.437)
+		),
+		url(../images/background.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+}
+
+.menu {
+	display: flex;
+	flex: 1;
+	height: 100vh;
+	color: white;
+}
+
+.content {
+	overflow: auto;
+	flex: 9;
+}
