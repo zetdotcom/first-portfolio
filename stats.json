@@ -1,16 +1,24 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-bc95d1829ccc19e3008f.js",
-      "component---src-pages-index-js-bc95d1829ccc19e3008f.js.map"
+      "component---src-pages-index-js-3daf92ffbba7307ee90c.js",
+      "component---src-pages-index-js-3daf92ffbba7307ee90c.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
       "path----557518bd178906f8d58a.js.map"
     ],
+    "component---src-pages-contact-js": [
+      "component---src-pages-contact-js-fb125f16c118be45eb2d.js",
+      "component---src-pages-contact-js-fb125f16c118be45eb2d.js.map"
+    ],
+    "path---projects": [
+      "path---projects-a0e39f21c11f6a62c5ab.js",
+      "path---projects-a0e39f21c11f6a62c5ab.js.map"
+    ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-8d647d4c90d951500bd6.js",
-      "component---src-layouts-index-js-8d647d4c90d951500bd6.js.map"
+      "component---src-layouts-index-js-53a29ca7f96e403d2f2c.js",
+      "component---src-layouts-index-js-53a29ca7f96e403d2f2c.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -25,20 +33,28 @@
       "component---src-pages-404-js-4503918ea3a16cfcdb75.js.map"
     ],
     "commons": [
-      "commons-68aad81503ae45628ade.js",
-      "commons-68aad81503ae45628ade.js.map"
+      "commons-cce5e023cb724960fd49.js",
+      "commons-cce5e023cb724960fd49.js.map"
     ],
     "path---404-html": [
       "path---404-html-a0e39f21c11f6a62c5ab.js",
       "path---404-html-a0e39f21c11f6a62c5ab.js.map"
     ],
+    "path---contact": [
+      "path---contact-a0e39f21c11f6a62c5ab.js",
+      "path---contact-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-projects-js": [
+      "component---src-pages-projects-js-de16e586e46a8a604c82.js",
+      "component---src-pages-projects-js-de16e586e46a8a604c82.js.map"
+    ],
     "component---src-pages-page-2-js": [
-      "component---src-pages-page-2-js-f8938d1cdc2db71a4e98.js",
-      "component---src-pages-page-2-js-f8938d1cdc2db71a4e98.js.map"
+      "component---src-pages-page-2-js-fe0695f65abf5ccda7aa.js",
+      "component---src-pages-page-2-js-fe0695f65abf5ccda7aa.js.map"
     ],
     "app": [
-      "app-7ec17665335917a87d1a.js",
-      "app-7ec17665335917a87d1a.js.map"
+      "app-7fbee7c6c11e07a66c81.js",
+      "app-7fbee7c6c11e07a66c81.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
