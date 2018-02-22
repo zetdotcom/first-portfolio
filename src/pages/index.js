@@ -21,10 +21,12 @@ class IndexPage extends React.Component {
 					<Wip />
 
 					<HomePage />
-
-					<Skills className="skillsComp" />
-
-					<About className="aboutComp" />
+					<section className="skillsComp">
+						<Skills />
+					</section>
+					<section className="aboutComp">
+						<About />
+					</section>
 				</div>
 			</div>
 		);

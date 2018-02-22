@@ -10,7 +10,7 @@
 	display: flex;
 	overflow: hidden;
 	clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 calc(100% - 60px));
-	z-index: 3;
+	// z-index: 3;
 	.title {
 		background: linear-gradient($orange 70%, rgb(207, 149, 41));
 		writing-mode: vertical-rl;
@@ -21,14 +21,14 @@
 	}
 	.title,
 	.skillsList {
-		padding-top: 65px;
-		padding-bottom: 70px;
+		padding-top: 130px;
+		padding-bottom: 150px;
 	}
 
 	.skillsList {
 		display: flex;
 		flex-flow: row wrap;
-		justify-content: space-between;
+		justify-content: center;
 		// background: red;
 		.skill {
 			margin: 20px 30px;

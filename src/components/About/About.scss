@@ -5,7 +5,7 @@
 }
 
 .about {
-	background: rgba(255, 255, 255, 0.8);
+	background: rgb(77, 170, 224);
 	color: black;
 	display: flex;
 	overflow: hidden;
@@ -13,7 +13,8 @@
 	// margin-top: -60px;
 	// z-index: 1;
 	// border-top: 12px solid $darkBlue;
-	// clip-path: polygon(0 calc(50px), 100% 0, 100% 100%, 0 100%);
+	clip-path: polygon(0 0, 100% 60px, 100% calc(100% - 50px), 0 100%);
+	// clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 calc(100% - 60px));
 	.title {
 		background: linear-gradient($orange 70%, rgb(207, 149, 41));
 		writing-mode: vertical-rl;
@@ -24,6 +25,10 @@
 	}
 	.title,
 	.aboutMe {
-		padding-top: 55px;
+		padding-top: 125px;
+		padding-bottom: 150px;
+	}
+	.aboutMe {
+		display: flex;
 	}
 }
