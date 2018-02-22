@@ -1,54 +1,54 @@
 [
 	{
 		"name": "HTML5",
-		"icon": "../images/html5.jpg"
+		"icon": "images/html5.jpg"
 	},
 	{
 		"name": "CSS3",
-		"icon": "../images/css3.jpg"
+		"icon": "images/css3.jpg"
 	},
 	{
 		"name": "JavaScript",
-		"icon": "../images/css3.jpg"
+		"icon": "images/js.jpg"
 	},
 	{
 		"name": "Sass",
-		"icon": "../images/css3.jpg"
+		"icon": "images/sass.png"
 	},
 	{
 		"name": "React",
-		"icon": "../images/css3.jpg"
+		"icon": "images/react.pngg"
 	},
 	{
 		"name": "Bootstrap",
-		"icon": "../images/css3.jpg"
+		"icon": "images/bootstrap.jpg"
 	},
 	{
 		"name": "Responsive Web Design",
-		"icon": "../images/css3.jpg"
+		"icon": "images/css3.jpg"
 	},
 	{
 		"name": "jQuery",
-		"icon": "../images/css3.jpg"
+		"icon": "images/jq.jpg"
 	},
 	{
 		"name": "ES6",
-		"icon": "../images/css3.jpg"
+		"icon": "images/es6png"
 	},
 	{
 		"name": "AJAX/JSON",
-		"icon": "../images/css3.jpg"
+		"icon": "images/css3.jpg"
 	},
 	{
 		"name": "Gatsby",
-		"icon": "../images/css3.jpg"
+		"icon": "images/gatsby.png"
 	},
 	{
 		"name": "GIT",
-		"icon": "../images/css3.jpg"
+		"icon": "imagesgit.png"
 	},
 	{
 		"name": "NPM",
-		"icon": "../images/css3.jpg"
+		"icon": "imagesnpm.png"
 	}
 ]
