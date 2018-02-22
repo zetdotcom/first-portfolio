@@ -1,15 +1,15 @@
 [
 	{
 		"name": "HTML5",
-		"icon": "images/html5.jpg"
+		"icon": "images/html51.png"
 	},
 	{
 		"name": "CSS3",
-		"icon": "images/css3.jpg"
+		"icon": "images/css3.png"
 	},
 	{
 		"name": "JavaScript",
-		"icon": "images/js.jpg"
+		"icon": "images/js.png"
 	},
 	{
 		"name": "Sass",
@@ -17,27 +17,27 @@
 	},
 	{
 		"name": "React",
-		"icon": "images/react.pngg"
+		"icon": "images/react.png"
 	},
 	{
 		"name": "Bootstrap",
-		"icon": "images/bootstrap.jpg"
+		"icon": "images/bootstrap.png"
 	},
 	{
 		"name": "Responsive Web Design",
-		"icon": "images/css3.jpg"
+		"icon": "images/rwd.png"
 	},
 	{
 		"name": "jQuery",
-		"icon": "images/jq.jpg"
+		"icon": "images/jq.png"
 	},
 	{
 		"name": "ES6",
-		"icon": "images/es6png"
+		"icon": "images/es6.png"
 	},
 	{
 		"name": "AJAX/JSON",
-		"icon": "images/css3.jpg"
+		"icon": "images/json.png"
 	},
 	{
 		"name": "Gatsby",
@@ -45,10 +45,10 @@
 	},
 	{
 		"name": "GIT",
-		"icon": "imagesgit.png"
+		"icon": "images/git.png"
 	},
 	{
 		"name": "NPM",
-		"icon": "imagesnpm.png"
+		"icon": "images/npm.png"
 	}
 ]

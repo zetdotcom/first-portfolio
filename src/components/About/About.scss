@@ -9,13 +9,18 @@
 	color: black;
 	display: flex;
 	overflow: hidden;
-	border-top: 12px solid $darkBlue;
-	// clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
+	// position: absolute;
+	// margin-top: -60px;
+	// z-index: 1;
+	// border-top: 12px solid $darkBlue;
+	// clip-path: polygon(0 calc(50px), 100% 0, 100% 100%, 0 100%);
 	.title {
-		background: $orange;
-		writing-mode: vertical-lr;
-		flex: 0 auto;
+		background: linear-gradient($orange 70%, rgb(207, 149, 41));
+		writing-mode: vertical-rl;
+		// flex: 0 auto;
 		width: 70px;
+		padding: 0 10px;
+		text-align: center;
 	}
 	.title,
 	.aboutMe {

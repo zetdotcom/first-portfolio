@@ -10,27 +10,25 @@ import Wip from '../components/Wip/Wip';
 import './index.scss';
 
 class IndexPage extends React.Component {
-		constructor(props) {
-				super(props);
-		}
+	constructor(props) {
+		super(props);
+	}
 
-		render() {
-				return (
-						<div className="app">
+	render() {
+		return (
+			<div className="app">
+				<div className="content">
+					<Wip />
 
-								<div className="content">
-										<Wip/>
+					<HomePage />
 
-										<HomePage/>
+					<Skills className="skillsComp" />
 
-										<Skills id="skills"/>
-
-										<About/>
-
-								</div>
-						</div>
-				);
-		}
+					<About className="aboutComp" />
+				</div>
+			</div>
+		);
+	}
 }
 
 export default IndexPage;
