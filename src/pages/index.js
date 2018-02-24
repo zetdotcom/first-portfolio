@@ -16,12 +16,11 @@ class IndexPage extends React.Component {
 
 	render() {
 		return (
-			<div className="app">
-				<div className="content">
+			<div className="app" id="app">
+				<div className="content" id="content">
 					<Wip />
-
 					<HomePage />
-					<section className="skillsComp">
+					<section className="skillsComp" id="skillsComp">
 						<Skills />
 					</section>
 					<section className="aboutComp">
@@ -34,3 +33,33 @@ class IndexPage extends React.Component {
 }
 
 export default IndexPage;
+
+// checkOffset() {
+// 	const offTop = document.getElementById('skillsComp');
+
+// 	function offset(el) {
+// 		var rect = el.getBoundingClientRect(),
+// 			scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+// 		return { top: rect.top + scrollTop };
+// 	}
+// 	var divOffset = offset(offTop);
+// 	console.log(divOffset.top);
+// }
+
+// checkPos() {
+// 	const elem = document.getElementById('aa');
+// 	const content = document.getElementById('content');
+// 	function offset(el) {
+// 		const rect = el.getBoundingClientRect(),
+// 			scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+// 		return { top: rect.top + scrollTop };
+// 	}
+// 	const elPos = offset(elem).top;
+// 	console.log(elPos);
+// 	elem.style.position = 'relative';
+// 	elem.scrollIntoView(true);
+// }
+
+// changePos() {
+// 	window.scrollBy(0, 250);
+// }

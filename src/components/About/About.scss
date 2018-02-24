@@ -5,8 +5,8 @@
 }
 
 .about {
-	background: rgb(77, 170, 224);
-	color: black;
+	background: rgba(77, 170, 224, 0.916);
+	color: whitesmoke;
 	display: flex;
 	overflow: hidden;
 	// position: absolute;
@@ -19,7 +19,7 @@
 		background: linear-gradient($orange 70%, rgb(207, 149, 41));
 		writing-mode: vertical-rl;
 		// flex: 0 auto;
-		width: 70px;
+		width: 65px;
 		padding: 0 10px;
 		text-align: center;
 	}
@@ -28,7 +28,25 @@
 		padding-top: 125px;
 		padding-bottom: 150px;
 	}
-	.aboutMe {
+
+	.info {
 		display: flex;
+		flex-flow: row nowrap;
+		flex: 1;
+	}
+
+	.aboutMe {
+		flex: 5;
+		padding-left: 10px;
+	}
+
+	.myImage {
+		// background-color: rgba(255, 255, 255, 0.785);
+		background: linear-gradient(rgba(255, 255, 255, 0.16), rgba(126, 126, 176, 0.236)),
+			url(../../../public/images/DSC_1009ss.jpg) center center / cover no-repeat;
+		height: 100%;
+		width: 100%;
+		flex: 2;
+		max-width: 250px;
 	}
 }
