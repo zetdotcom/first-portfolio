@@ -5,34 +5,36 @@ import './Skills.scss';
 import SkillsList from '../../json/skills.json';
 
 class Skills extends React.Component {
-	constructor() {
-		super();
-		this.skillSet = this.skillSet.bind(this);
-	}
-	skillSet() {
-		return SkillsList.map((s, key) => {
-			return (
-				<div className="skill">
-					<div className="skillImg">
-						<img src={s.icon} alt="css3" />
-					</div>
-					<div className="skillName">{s.name}</div>
-				</div>
-			);
-		});
-	}
-	render() {
-		return (
-			<div className="wrapper" id="skills">
-				<div className="skills">
-					<div className="title">
-						<h1>Skills</h1>
-					</div>
-					<div className="skillsList">{this.skillSet()}</div>
-				</div>
-			</div>
-		);
-	}
+		constructor() {
+				super();
+				this.skillSet = this
+						.skillSet
+						.bind(this);
+		}
+		skillSet() {
+				return SkillsList.map((s, key) => {
+						return (
+								<div className="skill" key={key}>
+										<div className="skillImg">
+												<img src={s.icon} alt="css3"/>
+										</div>
+										<div className="skillName">{s.name}</div>
+								</div>
+						);
+				});
+		}
+		render() {
+				return (
+						<div className="wrapper" id="skills">
+								<div className="skills">
+										<div className="title">
+												<h1>Skills</h1>
+										</div>
+										<div className="skillsList">{this.skillSet()}</div>
+								</div>
+						</div>
+				);
+		}
 }
 export default Skills;
 
