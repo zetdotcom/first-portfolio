@@ -77,3 +77,25 @@
 		transform: rotateX(360deg);
 	}
 }
+
+@media only screen and (max-width: 414px) {
+	.nav {
+		color: $fontLight;
+		flex: 1;
+		ul {
+			list-style: none;
+			text-transform: uppercase;
+			// height: 90vh;
+			height: 70px;
+			// padding: 40px 20px;
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			// margin: 0;
+			flex-flow: row nowrap;
+			// justify-content: space-around;
+			letter-spacing: 1px;
+			transition: all 0.5s;
+		}
+	}
+}

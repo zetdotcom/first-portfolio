@@ -17,15 +17,15 @@ body {
 	overflow-y: hidden;
 
 	background: linear-gradient(
-			to right,
-			rgba(1, 29, 72, 0.97) 120px,
-			rgba(39, 125, 223, 0.639),
-			rgba(150, 196, 229, 0.437)
-		),
-		url(../../public/images/background.jpg);
+		to right,
+		rgba(1, 29, 72, 0.97) 120px,
+		rgba(39, 125, 223, 0.639),
+		rgba(150, 196, 229, 0.437)
+	);
 	background-size: cover;
 	background-position: center;
 	background-attachment: fixed;
+	// url(../../public/images/background.jpg);
 }
 
 .menu {
@@ -40,15 +40,15 @@ body {
 	flex: 9;
 }
 
-// @media only screen and (max-width: 414px) {
-// 	.container {
-// 		flex-flow: column nowrap;
-// 	}
-// 	.menu {
-// 		max-height: 70px;
-// 		flex: 1;
-// 	}
-// 	.content {
-// 		flex: 9;
-// 	}
-// }
+@media only screen and (max-width: 414px) {
+	.container {
+		flex-flow: column-reverse;
+	}
+	.menu {
+		max-height: 70px;
+		flex: 1;
+	}
+	.content {
+		flex: 9;
+	}
+}
