@@ -71,6 +71,22 @@
 				height: 100%;
 			}
 		}
+		.projectSkills {
+			display: flex;
+			justify-content: space-around;
+			width: 100%;
+			flex-flow: row wrap;
+			border-bottom: 1px solid rgba(255, 255, 255, 0.639);
+			border-top: 1px solid rgba(255, 255, 255, 0.639);
+			margin-bottom: 4px;
+			div {
+				// display: flex;
+				margin: 7px;
+				border: 1px solid black;
+				background: $blue;
+				padding: 2px;
+			}
+		}
 		a {
 			text-decoration: none;
 		}
