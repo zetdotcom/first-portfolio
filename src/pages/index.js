@@ -18,17 +18,9 @@ class IndexPage extends React.Component {
 		render() {
 				return (
 						<div className="app" id="app">
-								<div className="content" id="content">
-										<Wip/>
-										<HomePage/>
-										<Projects/>
-										<section className="skillsComp" id="skillsComp">
-												<Skills/>
-										</section>
-										<section className="aboutComp">
-												<About/>
-										</section>
-								</div>
+
+								<HomePage/>
+
 						</div>
 				);
 		}
@@ -46,5 +38,5 @@ export default IndexPage;
 // el.getBoundingClientRect(), 			scrollTop = window.pageYOffset ||
 // document.documentElement.scrollTop; 		return { top: rect.top + scrollTop };
 // 	} 	const elPos = offset(elem).top; 	console.log(elPos); 	elem.style.position
-// = 'relative'; 	elem.scrollIntoView(true); } changePos() { 	window.scrollBy(0,
-// 250); }
+// = 'relative'; 	elem.scrollIntoView(true); } changePos() {
+// 	window.scrollBy(0, 250); }

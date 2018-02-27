@@ -1,0 +1,27 @@
+.floats {
+  position: absolute;
+  // z-index: -1;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  color: rgba(255, 255, 255, 0.194);
+  div {
+    top: 20px;
+    animation: translateX infinite;
+    position: absolute;
+    // animation-timing-function: ease-in-out;
+    // transition: `1s`,
+    font-size: 2em;
+    text-transform: uppercase;
+    // font-weight: bold;
+  }
+}
+
+@keyframes translateX {
+  from {
+    top: -10%;
+  }
+  to {
+    top: 110%;
+  }
+}

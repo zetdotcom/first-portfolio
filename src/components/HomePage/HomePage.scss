@@ -3,48 +3,136 @@
 @import '../../styles/variables.scss';
 
 .homepage {
-	height: 90vh;
-	// background: lightcyan;
-	color: white;
-	display: flex;
-	flex-flow: column;
-	align-items: center;
-	justify-content: center;
-	text-shadow: 2px 2px 2px black;
-	background: linear-gradient(to right rgba(1, 31, 75, 0.59), rgba(0, 90, 150, 0.5));
-	h1,
-	h3 {
-		font-family: 'Nanum Gothic Coding', monospace;
-		text-transform: uppercase;
-		letter-spacing: 1.5px;
-	}
-	h1 {
-		span {
-			transition: all 0.1s;
-			cursor: crosshair;
-		}
-		span:hover {
-			color: $orange;
-			font-size: 2em;
-		}
-		// font-size: 1.5rem;
-	}
-
-	h3 {
-		span {
-			transition: all 0.2s;
-			cursor: crosshair;
-		}
-		span:hover {
-			color: $orange;
-			font-size: 1.2em;
-		}
-		// font-size: 1.5rem;
-	}
-	.initials {
-		font-weight: bold;
-		font-size: 2em;
-	}
+  height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(1, 29, 72, 0.97) 120px,
+      rgba(39, 125, 223, 0.639),
+      rgba(150, 196, 229, 0.437)
+    ),
+    url(../../../public/images/background.jpg);
+  background-size: cover;
+  color: rgb(255, 191, 0);
+  background-position: center;
+  text-transform: uppercase;
+  background-attachment: fixed;
+  .names {
+    border-bottom: 1px solid rgba(79, 191, 219, 0.486);
+    background: linear-gradient(225deg, rgba(78, 210, 243, 0.201), rgba(11, 52, 173, 0.201));
+    padding: 10px;
+    height: 150px;
+    text-align: center;
+    text-shadow: 1px 1px 30px black;
+  }
+  .row1,
+  .row2 {
+    display: flex;
+    justify-content: center;
+  }
+  .links {
+    height: calc(100vh - 150px);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    position: relative;
+  }
+  .linkBox {
+    border: 1px solid lightblue;
+    background: linear-gradient(
+      -45deg,
+      rgba(11, 52, 173, 0.764),
+      rgba(86, 195, 205, 0.521),
+      rgba(78, 210, 243, 0.444),
+      rgba(94, 172, 200, 0.565)
+    );
+    background-size: 400% 400%;
+    animation: Gradient 15s ease infinite;
+    border-radius: 8px;
+    padding: 10px;
+    height: 30vh;
+    width: 40%;
+    margin: 10px;
+    font-size: 1.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  a {
+    text-decoration: none;
+    color: rgb(255, 191, 0);
+    text-shadow: 1px 1px 30px black;
+  }
 }
+
+@media only screen and (max-width: 415px) {
+  .homepage {
+    .row1,
+    .row2 {
+      flex-flow: column nowrap;
+      flex: 1;
+    }
+    .linkBox {
+      width: 100%;
+      margin: 0;
+      border-radius: 0px;
+    }
+  }
+}
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+// .homepage {
+// 	height: 90vh;
+// 	// background: lightcyan;
+// 	color: white;
+// 	display: flex;
+// 	flex-flow: column;
+// 	align-items: center;
+// 	justify-content: center;
+// 	text-shadow: 2px 2px 2px black;
+// 	background: linear-gradient(to right rgba(1, 31, 75, 0.59), rgba(0, 90, 150, 0.5));
+// 	h1,
+// 	h3 {
+// 		font-family: 'Nanum Gothic Coding', monospace;
+// 		text-transform: uppercase;
+// 		letter-spacing: 1.5px;
+// 	}
+// 	h1 {
+// 		span {
+// 			transition: all 0.1s;
+// 			cursor: crosshair;
+// 		}
+// 		span:hover {
+// 			color: $orange;
+// 			font-size: 2em;
+// 		}
+// 		// font-size: 1.5rem;
+// 	}
+
+// 	h3 {
+// 		span {
+// 			transition: all 0.2s;
+// 			cursor: crosshair;
+// 		}
+// 		span:hover {
+// 			color: $orange;
+// 			font-size: 1.2em;
+// 		}
+// 		// font-size: 1.5rem;
+// 	}
+// 	.initials {
+// 		font-weight: bold;
+// 		font-size: 2em;
+// 	}
+// }
 //font-family: 'Nanum Gothic Coding', monospace;
 //font-family: 'Berkshire Swash', cursive;
