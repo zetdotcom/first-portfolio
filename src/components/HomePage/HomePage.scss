@@ -4,18 +4,7 @@
 
 .homepage {
   height: 100vh;
-  background: linear-gradient(
-      to right,
-      rgba(1, 29, 72, 0.97) 120px,
-      rgba(39, 125, 223, 0.639),
-      rgba(150, 196, 229, 0.437)
-    ),
-    url(../../../public/images/background.jpg);
-  background-size: cover;
-  color: rgb(255, 191, 0);
-  background-position: center;
-  text-transform: uppercase;
-  background-attachment: fixed;
+  color: $orangeMain;
   .names {
     border-bottom: 1px solid rgba(79, 191, 219, 0.486);
     background: linear-gradient(225deg, rgba(78, 210, 243, 0.201), rgba(11, 52, 173, 0.201));

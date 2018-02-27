@@ -1,4 +1,4 @@
-// @import '../../styles/variables.scss';
+@import '../styles/variables.scss';
 @import url('https://fonts.googleapis.com/css?family=Titillium+Web:200, 200i, 300, 400, 600, 700, 900');
 @import url('https://fonts.googleapis.com/css?family=Nanum+Gothic+Coding');
 @import url('https://fonts.googleapis.com/css?family=Rock+Salt');
@@ -10,6 +10,19 @@
 .container {
   display: flex;
   height: 100vh;
+  // height: 100vh;
+  background: linear-gradient(
+      to right,
+      rgba(1, 29, 72, 0.97) 120px,
+      rgba(39, 125, 223, 0.639),
+      rgba(150, 196, 229, 0.437)
+    ),
+    url(../../public/images/background.jpg);
+  background-size: cover;
+  // color: rgb(255, 191, 0);
+  background-position: center;
+  text-transform: uppercase;
+  background-attachment: fixed;
   // overflow-y: hidden;
 
   // background: linear-gradient(

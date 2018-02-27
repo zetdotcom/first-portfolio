@@ -1,114 +1,128 @@
 @import '../../styles/variables.scss';
 
 .wrapper {
-	position: relative;
+  position: relative;
 }
-// .rotateDiv {
-// 	width: 100%;
-// 	height: 100px;
-// 	position: absolute;
-// 	background: $blue;
-// 	top: -50px;
-// 	clip-path: polygon(0 0, 100% 100%, 100% 100%, 0 100%);
-// }
 
 .projects {
-	background: linear-gradient(225deg, rgba(78, 210, 243, 0.91), rgba(11, 52, 173, 0.95));
-	color: $fontLight;
-	display: flex;
-	// overflow: hidden;
-	border-top: 12px solid $darkBlue;
-	// clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
-	.title {
-		background: linear-gradient(#ff6c22 70%, #cf9529);
-		writing-mode: vertical-lr;
-		width: 70px;
-		padding: 0 10px;
-		text-align: center;
-	}
-	.title,
-	.projectsList {
-		padding-top: 55px;
-	}
+  background: linear-gradient(225deg, rgba(78, 210, 243, 0.222), rgba(11, 52, 173, 0.201));
+  color: $fontLight;
+  display: flex;
+  // overflow: hidden;
+  // clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
+  .title {
+    background: linear-gradient(#ff6c22 70%, #cf9529);
+    writing-mode: vertical-lr;
+    width: 70px;
+    padding: 0 10px;
+    text-align: center;
+  }
+  .title,
+  .projectsList {
+    padding-top: 55px;
+  }
 
-	.projectsList {
-		display: flex;
-		flex-flow: row wrap;
-		justify-content: space-around;
+  .projectsList {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
 
-		.project {
-			width: 40%;
-			max-width: 450px;
-			min-width: 300px;
-			margin: 20px;
-			background: rgba(85, 85, 238, 0.243);
-			border-radius: 10px;
-			border: 2px solid $darkBlue;
-			display: flex;
-			flex-flow: column nowrap;
-			align-items: center;
-			box-shadow: 1px 1px 12px $blue;
-			position: relative;
-		}
-		.project:hover {
-			box-shadow: 3px 7px 15px 3px $blue;
-			top: -5px;
-			left: -2px;
-			background: rgba(80, 80, 227, 0.458);
-		}
-		.projectTitle {
-			text-transform: uppercase;
-			font-size: 1.2em;
-			letter-spacing: 2px;
-			font-weight: bold;
-		}
+    .project {
+      width: 40%;
+      max-width: 450px;
+      min-width: 300px;
+      margin: 20px;
+      background: linear-gradient(
+        -45deg,
+        rgba(11, 52, 173, 0.396),
+        rgba(86, 195, 205, 0.521),
+        rgba(78, 210, 243, 0.444),
+        rgba(94, 172, 200, 0.565)
+      );
+      border-radius: 8px;
+      border: 1px solid $darkBlue;
+      display: flex;
+      flex-flow: column nowrap;
+      align-items: center;
+      // box-shadow: 1px 1px 12px $blue;
+      position: relative;
+    }
+    .project:hover {
+      box-shadow: 3px 7px 15px 3px $blue;
+      // top: -5px;
+      // left: -2px;
+      // background: rgba(80, 80, 227, 0.458);
+    }
+    .projectTitle {
+      text-transform: uppercase;
+      font-size: 1.2em;
+      letter-spacing: 2px;
+      font-weight: bold;
+    }
 
-		.thumbnail {
-			width: 100%;
-			height: 230px;
-			img {
-				width: 100%;
-				height: 100%;
-			}
-		}
-		.projectSkills {
-			display: flex;
-			justify-content: space-around;
-			width: 100%;
-			flex-flow: row wrap;
-			border-bottom: 1px solid rgba(255, 255, 255, 0.639);
-			border-top: 1px solid rgba(255, 255, 255, 0.639);
-			margin-bottom: 4px;
-			div {
-				// display: flex;
-				margin: 7px;
-				border: 1px solid black;
-				background: $blue;
-				padding: 2px;
-			}
-		}
-		a {
-			text-decoration: none;
-		}
-		a:visited {
-			color: $darkBlue;
-		}
-		button {
-			color: $darkBlue;
-			border-radius: 4px;
-			border: 3px solid $darkBlue;
-			background: rgba(255, 255, 255, 0.132);
-			margin: 0 5px;
-		}
-		button:hover {
-			position: relative;
-			top: -2px;
-			box-shadow: 1px 10px 20px -4px rgba(0, 0, 0, 0.71);
-		}
-		button:active {
-			top: 2px;
-			color: blue;
-			background: lightblue;
-		}
-	}
+    .thumbnail {
+      width: 100%;
+      height: 230px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .info {
+      opacity: 0.7;
+      // border: 2px solid red;
+      position: absolute;
+      width: 100%;
+      height: 230px;
+      display: flex;
+      flex-flow: column;
+      background: rgba(16, 16, 138, 0.854);
+
+      .links {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+    }
+    .projectSkills {
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      flex-flow: row wrap;
+      border-bottom: 1px solid rgba(255, 255, 255, 0.639);
+      border-top: 1px solid rgba(255, 255, 255, 0.639);
+      margin-bottom: 4px;
+      div {
+        // display: flex;
+        margin: 7px;
+        border: 1px solid black;
+        background: $blue;
+        padding: 2px;
+      }
+    }
+
+    a {
+      text-decoration: none;
+    }
+    a:visited {
+      color: $darkBlue;
+    }
+    button {
+      color: white;
+      border-radius: 4px;
+      border: 3px solid $darkBlue;
+      background: rgb(209, 98, 19);
+      margin: 0 5px;
+    }
+    button:hover {
+      position: relative;
+      top: -2px;
+      box-shadow: 1px 10px 20px -4px rgba(0, 0, 0, 0.71);
+    }
+    button:active {
+      top: 2px;
+      color: blue;
+      background: lightblue;
+    }
+  }
 }

@@ -1,23 +1,23 @@
 @import url('https://fonts.googleapis.com/css?family=Press+Start+2P');
 
 .wip {
-	position: absolute;
-	top: 50px;
-	text-transform: uppercase;
-	background: rgba(193, 193, 29, 0.819);
-	color: rgb(229, 4, 4);
-	padding: 15px;
-	border: 2px solid yellow;
-	text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.868);
-	margin-right: 20px;
-	h3,
-	h5 {
-		font-family: 'Press Start 2P', sans-serif;
-		width: 100%;
-		overflow: hidden;
-		// display: flex;
-		// flex-direction: column;
-		// justify-content: center;
-		// align-items: center;
-	}
+  position: absolute;
+  // top: 50px;
+  text-transform: uppercase;
+  background: rgba(193, 193, 29, 0.819);
+  color: rgb(229, 4, 4);
+  padding: 15px;
+  border: 2px solid yellow;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.868);
+  margin-right: 20px;
+  h3,
+  h5 {
+    font-family: 'Press Start 2P', sans-serif;
+    width: 100%;
+    overflow: hidden;
+    // display: flex;
+    // flex-direction: column;
+    // justify-content: center;
+    // align-items: center;
+  }
 }

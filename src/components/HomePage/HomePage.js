@@ -29,6 +29,7 @@ const HomePage = () => (
       <h3>
         <span>Front End</span> /<span> Web Apps</span> / <span>Javascript Developer</span>
       </h3>
+      <p className="wip">Website still under development</p>
     </div>
     <div className="links">
       <div className="row1">

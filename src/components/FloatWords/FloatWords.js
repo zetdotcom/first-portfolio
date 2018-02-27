@@ -6,40 +6,9 @@ import './FloatWords.scss';
 class FloatWords extends React.Component {
   constructor() {
     super();
-    this.state = {
-      top: 0,
-      top1: 0
-    };
-
-    this.top = this.top.bind(this);
-    this.repeat = this.repeat.bind(this);
   }
 
-  componentDidMount() {
-    this.repeat();
-  }
-
-  top() {
-    let y = Math.floor(Math.random() * 550);
-    let y1 = Math.floor(Math.random() * 550);
-    this.setState({
-      top: y + 'px',
-      top1: y1 + 'px'
-    });
-  }
-  repeat() {
-    setInterval(this.top, 2500);
-  }
   render() {
-    console.log(this.state);
-    const style = {
-      position: `absolute`,
-      top: `90%`,
-      left: `10%`,
-      // transition: `1s`,
-      fontSize: `2.5em`
-    };
-
     return (
       <div className="floats">
         <div style={{ left: '9%', animationDuration: '9s', animationTimingFunction: 'linear' }}>html5</div>

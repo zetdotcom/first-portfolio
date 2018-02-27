@@ -5,55 +5,55 @@ import './Projects.scss';
 import ProjectsList from '../../json/projects.json';
 
 const project = () => {
-		return (ProjectsList.map((item, key) => {
-				const checkRepo = () => {
-						if (item.git === "") {
-								return <button >Private repo</button>
-						} else {
-								return <a href={item.git} target="blank">
-										<button >Git repo</button>
-								</a>
-						}
-				};
-				const skillso = () => {
-						return (item.skills.map((el) => {
-								return <div>{el}</div>
-						}))
-
-				};
-				return (
-						<div className="project" key={key}>
-								<div className="projectTitle">
-										{item.title}</div>
-								<div className="thumbnail"><img src="images/bootstrap.png"/></div>
-								<div className="projectSkills">{skillso()}</div>
-								<div className="links">
-										<a href={item.link} target="blank">
-												<button>Visti Website</button>
-										</a>
-										{checkRepo()}
-								</div>
-								<div className="description">{item.desc}</div>
-						</div>
-				);
-		}))
+  return ProjectsList.map((item, key) => {
+    const checkRepo = () => {
+      if (item.git === '') {
+        return <button>Private repo</button>;
+      } else {
+        return (
+          <a href={item.git} target="blank">
+            <button>Git repo</button>
+          </a>
+        );
+      }
+    };
+    const skillso = () => {
+      return item.skills.map((el, k) => {
+        return <div key={k}>{el}</div>;
+      });
+    };
+    return (
+      <div className="project" key={key}>
+        <div className="projectTitle">{item.title}</div>
+        <div className="thumbnail">
+          <div className="info">
+            <div className="description">{item.desc}</div>
+            <div className="links">
+              <a href={item.link} target="blank">
+                <button>Visti Website</button>
+              </a>
+              {checkRepo()}
+            </div>
+          </div>
+          <img src="images/bootstrap.png" />
+        </div>
+        <div className="projectSkills">{skillso()}</div>
+      </div>
+    );
+  });
 };
 
 const Projects = () => {
-
-		return (
-				<div className="wrapper">
-						<div className="projects">
-								<div className="title">
-										<h1>Projects</h1>
-								</div>
-								<div className="projectsList">
-										{project()}
-								</div>
-						</div>
-				</div>
-		);
-
+  return (
+    <div className="wrapper">
+      <div className="projects">
+        <div className="title">
+          <h1>Projects</h1>
+        </div>
+        <div className="projectsList">{project()}</div>
+      </div>
+    </div>
+  );
 };
 
 export default Projects;
