@@ -25,9 +25,12 @@ const project = () => {
     return (
       <div className="project" key={key}>
         <div className="projectTitle">{item.title}</div>
-        <div className="thumbnail">
-          <div className="info">
-            <div className="description">{item.desc}</div>
+        <div className="info">
+          <div className="thumbnail">
+            <img src={item.img} />
+          </div>
+          <div className="description">
+            <div className="descText">{item.desc}</div>
             <div className="links">
               <a href={item.link} target="blank">
                 <button>Visti Website</button>
@@ -35,7 +38,6 @@ const project = () => {
               {checkRepo()}
             </div>
           </div>
-          <img src="images/bootstrap.png" />
         </div>
         <div className="projectSkills">{skillso()}</div>
       </div>

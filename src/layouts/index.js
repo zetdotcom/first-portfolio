@@ -3,38 +3,41 @@ import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 
 import Navigation from '../components/Navigation/Navigation';
+import FloatWords from '../components/FloatWords/FloatWords';
 import './index.scss';
 import './layouts.scss';
 
 const checkLocation = () => {
-		if (location.pathname !== "/") {
-				return < Navigation className = "menu" />
-}
+  if (location.pathname !== '/') {
+    return <Navigation />;
+  }
 };
-const TemplateWrapper = ({children}) => (
-		<div>
-		<Helmet
-				title="ZETDOTCOM"
-				meta={[
-				{
-						name: 'description',
-						content: 'Sample'
-				}, {
-						name: 'keywords',
-						content: 'sample, something'
-				}
-		]}/>
-		<div className="container">
-				{checkLocation()}
+const TemplateWrapper = ({ children }) => (
+  <div className="app">
+    <Helmet
+      title="ZETDOTCOM"
+      meta={[
+        {
+          name: 'description',
+          content: 'Sample'
+        },
+        {
+          name: 'keywords',
+          content: 'sample, something'
+        }
+      ]}
+    />
+    <div className="container">
+      <FloatWords />
+      {checkLocation()}
 
-				<div className="content">{children()}</div>
-
-		</div>
-</div>
+      <div className="content">{children()}</div>
+    </div>
+  </div>
 );
 
 TemplateWrapper.propTypes = {
-children: PropTypes.func
+  children: PropTypes.func
 };
 
 export default TemplateWrapper;
