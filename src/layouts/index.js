@@ -8,8 +8,10 @@ import './index.scss';
 import './layouts.scss';
 
 const checkLocation = () => {
-  if (location.pathname !== '/') {
-    return <Navigation />;
+  if (typeof window !== `undefined`) {
+    if (window.location.pathname !== '/') {
+      return <Navigation />;
+    }
   }
 };
 const TemplateWrapper = ({ children }) => (
