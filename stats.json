@@ -1,8 +1,8 @@
 {
   "assetsByChunkName": {
     "component---src-pages-index-js": [
-      "component---src-pages-index-js-f647528a4193b802ad7f.js",
-      "component---src-pages-index-js-f647528a4193b802ad7f.js.map"
+      "component---src-pages-index-js-3e91208dcaab6b637e53.js",
+      "component---src-pages-index-js-3e91208dcaab6b637e53.js.map"
     ],
     "path---": [
       "path----557518bd178906f8d58a.js",
@@ -17,8 +17,8 @@
       "path---projects-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-layouts-index-js": [
-      "component---src-layouts-index-js-53a29ca7f96e403d2f2c.js",
-      "component---src-layouts-index-js-53a29ca7f96e403d2f2c.js.map"
+      "component---src-layouts-index-js-cf82a78aed3ce8fd145d.js",
+      "component---src-layouts-index-js-cf82a78aed3ce8fd145d.js.map"
     ],
     "path---page-2": [
       "path---page-2-a0e39f21c11f6a62c5ab.js",
@@ -45,20 +45,28 @@
       "path---contact-a0e39f21c11f6a62c5ab.js.map"
     ],
     "component---src-pages-projects-js": [
-      "component---src-pages-projects-js-71a71345345d9e5a51be.js",
-      "component---src-pages-projects-js-71a71345345d9e5a51be.js.map"
+      "component---src-pages-projects-js-2184ec5976bf6168cf17.js",
+      "component---src-pages-projects-js-2184ec5976bf6168cf17.js.map"
     ],
     "component---src-pages-page-2-js": [
       "component---src-pages-page-2-js-fe0695f65abf5ccda7aa.js",
       "component---src-pages-page-2-js-fe0695f65abf5ccda7aa.js.map"
     ],
     "app": [
-      "app-7fbee7c6c11e07a66c81.js",
-      "app-7fbee7c6c11e07a66c81.js.map"
+      "app-28c4010ef45b239a586e.js",
+      "app-28c4010ef45b239a586e.js.map"
     ],
     "path---404": [
       "path---404-a0e39f21c11f6a62c5ab.js",
       "path---404-a0e39f21c11f6a62c5ab.js.map"
+    ],
+    "component---src-pages-about-js": [
+      "component---src-pages-about-js-ba77782bc9b58be983ea.js",
+      "component---src-pages-about-js-ba77782bc9b58be983ea.js.map"
+    ],
+    "path---about": [
+      "path---about-a0e39f21c11f6a62c5ab.js",
+      "path---about-a0e39f21c11f6a62c5ab.js.map"
     ]
   }
 }
