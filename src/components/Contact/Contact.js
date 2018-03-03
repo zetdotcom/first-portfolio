@@ -21,10 +21,10 @@ const Contact = () => {
             </form>
           </div>
           <div className="contactLinks">
-            <div className="contactEmail">
+            <div className="contactLink contactEmail">
               <a href="mailto:michal.zadarnowskigmail.com">michal.zadarnowski@gmail.com</a>
             </div>
-            <div className="contactLinkedin">
+            <div className="contactLink contactLinkedin">
               <a href="https://www.linkedin.com/in/michal-zadarnowski-559259143/" target="blank">
                 LinkedIn
               </a>

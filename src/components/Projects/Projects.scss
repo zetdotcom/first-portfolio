@@ -6,7 +6,8 @@
 
 .projects {
   min-height: 100vh;
-  background: linear-gradient(225deg, rgba(78, 210, 243, 0.222), rgba(11, 52, 173, 0.201));
+  background: linear-gradient(-45deg, rgba(16, 59, 188, 0.604), rgba(86, 195, 205, 0.521));
+
   color: $fontLight;
   display: flex;
 
@@ -111,6 +112,7 @@
       background: orange;
       margin: 0 5px;
       color: $fontDark;
+      cursor: pointer;
     }
     button:hover {
       position: relative;
@@ -122,6 +124,18 @@
       top: 1px;
       color: rgb(255, 157, 0);
     }
+  }
+}
+
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
   }
 }
 
