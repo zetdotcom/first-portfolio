@@ -1,25 +1,28 @@
 @import '../../styles/variables.scss';
 
 .wrapper {
-	position: relative;
+  position: relative;
 }
 
 .contact {
-	min-height: 85vh;
-	background: rgba(255, 255, 255, 0.8);
-	color: black;
-	display: flex;
-	overflow: hidden;
-	border-top: 12px solid $darkBlue;
-	// clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
-	.title {
-		background: orange;
-		writing-mode: vertical-lr;
-		flex: 0 auto;
-		width: 70px;
-	}
-	.title,
-	.contactMe {
-		padding-top: 55px;
-	}
+  min-height: 85vh;
+  background: rgba(255, 255, 255, 0.8);
+  color: black;
+  display: flex;
+  overflow: hidden;
+  border-top: 12px solid $darkBlue;
+  // clip-path: polygon(0 50px, 100% 0, 100% 100%, 0 100%);
+  .title {
+    background: orange;
+    writing-mode: vertical-lr;
+    flex: 0 auto;
+    width: 70px;
+  }
+  .title,
+  .contactMe {
+    padding-top: 55px;
+  }
+  .form {
+    width: 50%;
+  }
 }

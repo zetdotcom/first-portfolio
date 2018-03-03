@@ -5,7 +5,7 @@
     "git": "",
     "skills": ["React", "Firebase", "Responsive", "HTML5", "CSS3", "Sass"],
     "desc": "Church community website",
-    "img": "images/jezuszyje.png"
+    "img": "../images/jezuszyje.png"
   },
   {
     "title": "Electric Map",
@@ -13,7 +13,7 @@
     "git": "https://github.com/zetdotcom/electric-map",
     "skills": ["React", "Firebase", "Responsive", "HTML5", "CSS3", "Sass", "Google Maps API"],
     "desc": "Project build with Google Maps API showing charing points for electric cars in the UK",
-    "img": "images/map.png"
+    "img": "../images/map.png"
   },
   {
     "title": "Real Estate",
@@ -22,7 +22,7 @@
     "skills": ["React", "Responsive", "HTML5", "CSS3", "Sass", "JSON"],
     "desc":
       "Real Estate sample website with filter section to allow you to search for the property you want. Planning to connect this app to Zoopla API",
-    "img": "images/realestate.png"
+    "img": "../images/realestate.png"
   },
   {
     "title": "Restaurant",
@@ -30,7 +30,7 @@
     "git": "https://github.com/zetdotcom/jquery-restaurant",
     "skills": ["jQuery", "Responsive", "HTML5", "CSS3"],
     "desc": "Responsive, clean and modern restaurant website",
-    "img": "images/restaurant.png"
+    "img": "../images/restaurant.png"
   },
   {
     "title": "My Website",
@@ -38,6 +38,6 @@
     "git": "https://github.com/zetdotcom/zetdotcom.github.io/tree/develop",
     "skills": ["React", "Responsive", "HTML5", "CSS3", "Gatsby", "Sass"],
     "desc": "My personal website",
-    "img": "images/mywebsite.png"
+    "img": "../images/mywebsite.png"
   }
 ]

@@ -4,27 +4,36 @@ import Link from 'gatsby-link';
 import './Contact.scss';
 
 const Contact = () => {
-	return (
-		<div className="wrapper">
-			<div className="contact">
-				<div className="title">
-					<h1>Contact</h1>
-				</div>
-				<div className="contactMe">
-					<ul>
-						<li>
-							<a href="mailto:michal.zadarnowskigmail.com">michal.zadarnowski@gmail.com</a>
-						</li>
-						<li>
-							<a href="https://www.linkedin.com/in/michal-zadarnowski-559259143/" target="blank">
-								LinkedIn
-							</a>
-						</li>
-					</ul>
-				</div>
-			</div>
-		</div>
-	);
+  return (
+    <div className="wrapper">
+      <div className="contact">
+        <div className="title">
+          <h1>Contact</h1>
+        </div>
+        <div className="contactMe">
+          <div className="form">
+            <form method="POST" action="https://formspree.io/michal.zadarnowski@gmail.com">
+              <input type="email" name="email" placeholder="Your email" />
+              <input type="text" name="subject" placeholder="Subject" />
+              <input type="hidden" name="_next" value="//zetdotcom.github.io" />
+              <textarea name="message" placeholder="Your message" />
+              <button type="submit">Send</button>
+            </form>
+          </div>
+          <div className="contactLinks">
+            <div className="contactEmail">
+              <a href="mailto:michal.zadarnowskigmail.com">michal.zadarnowski@gmail.com</a>
+            </div>
+            <div className="contactLinkedin">
+              <a href="https://www.linkedin.com/in/michal-zadarnowski-559259143/" target="blank">
+                LinkedIn
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 };
 
 export default Contact;
