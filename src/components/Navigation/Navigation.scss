@@ -4,6 +4,7 @@
   flex: 1;
   z-index: 5;
   height: 100vh;
+  overflow-y: hidden;
   ul {
     list-style: none;
     text-transform: uppercase;
@@ -99,6 +100,7 @@
     color: $fontLight;
     flex: 1;
     max-height: 70px;
+    bottom: 0;
     ul {
       list-style: none;
       text-transform: uppercase;

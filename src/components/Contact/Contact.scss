@@ -97,7 +97,7 @@
 
 @media (max-width: 900px) {
   .contact {
-    height: calc(100vh - 70px);
+    height: 100vh;
     .contactMe {
       justify-content: center;
     }
@@ -111,6 +111,17 @@
     }
     .contactLinks {
       flex-direction: column;
+    }
+  }
+}
+
+@media (max-width: 586px) {
+  .contact {
+    height: calc(100vh - 70px);
+    .form {
+      textarea {
+        height: 200px;
+      }
     }
   }
 }

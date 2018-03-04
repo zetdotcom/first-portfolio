@@ -3,7 +3,10 @@
   // z-index: -1;
   width: 100vw;
   height: 100vh;
+  display: flex;
   overflow: hidden;
+  justify-content: center;
+  align-items: center;
   color: rgba(255, 255, 255, 0.194);
   div {
     top: 20px;
@@ -19,9 +22,9 @@
 
 @keyframes translateX {
   from {
-    top: -10%;
+    top: 0%;
   }
   to {
-    top: 110%;
+    top: 100%;
   }
 }
