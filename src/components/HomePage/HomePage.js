@@ -31,22 +31,22 @@ const HomePage = () => (
     </div>
     <div className="links">
       <div className="row1">
-        <Link to="/projects" className="linkBox">
+        <Link to="/projects/" className="linkBox">
           <div>Projects</div>
         </Link>
 
-        <Link to="/about" className="linkBox">
+        <a href="/about/" className="linkBox">
           <div>About Me</div>
-        </Link>
+        </a>
       </div>
       <div className="row2">
-        <Link to="/CV" className="linkBox">
+        <a href="/CVMZFrontEnd.pdf" className="linkBox">
           <div>Have a look at my CV</div>
-        </Link>
+        </a>
 
-        <Link to="/contact" className="linkBox">
+        <a href="/contact/" className="linkBox">
           <div>Contact</div>
-        </Link>
+        </a>
       </div>
     </div>
   </div>

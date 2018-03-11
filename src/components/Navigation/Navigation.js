@@ -31,14 +31,14 @@ const Navigation = () => (
           <div className="desc">About</div>
         </li>
       </Link>
-      <a href="CV2red.pdf">
+      <Link to="/CVMZFrontEnd.pdf">
         <li>
           <div>
             <GoChecklist className="menuIcon" />
           </div>
           <div className="desc">CV</div>
         </li>
-      </a>
+      </Link>
       <Link to="/contact" activeClassName="active">
         <li>
           <div>

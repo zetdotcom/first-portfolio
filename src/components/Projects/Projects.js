@@ -33,7 +33,7 @@ const project = () => {
             <div className="descText">{item.desc}</div>
             <div className="links">
               <a href={item.link} target="blank">
-                <button>Visti Website</button>
+                <button>Visit Website</button>
               </a>
               {checkRepo()}
             </div>

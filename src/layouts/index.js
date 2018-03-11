@@ -30,10 +30,10 @@ const TemplateWrapper = ({ children }) => (
       ]}
     />
     <div className="container">
-      <FloatWords />
       {checkLocation()}
 
       <div className="content">{children()}</div>
+      <FloatWords />
     </div>
   </div>
 );

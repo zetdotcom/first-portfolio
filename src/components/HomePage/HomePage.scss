@@ -12,6 +12,7 @@
     height: 150px;
     text-align: center;
     text-shadow: 1px 1px 30px black;
+    z-index: 10;
   }
   .row1,
   .row2 {
@@ -24,6 +25,7 @@
     flex-flow: column wrap;
     justify-content: center;
     position: relative;
+    z-index: 10;
   }
   .linkBox {
     border: 1px solid lightblue;
