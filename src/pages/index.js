@@ -1,29 +1,63 @@
 import React from 'react';
 import Link from 'gatsby-link';
-import HomePage from '../components/HomePage/HomePage';
-import Skills from '../components/Skills/Skills';
-import Projects from '../components/Projects/Projects';
-
-import About from '../components/About/About';
-
-import Wip from '../components/Wip/Wip';
 
 import './index.scss';
+import '../components/HomePage/HomePage.scss';
 
 class IndexPage extends React.Component {
-		constructor(props) {
-				super(props);
-		}
+  constructor(props) {
+    super(props);
+  }
 
-		render() {
-				return (
-						<div className="app" id="app">
+  render() {
+    return (
+      <div className="homepage">
+        <div className="names">
+          <h1>
+            <span className="initials">M</span>
+            <span>i</span>
+            <span>c</span>
+            <span>h</span>
+            <span>a</span>
+            <span>l</span> <span className="initials">Z</span>
+            <span>a</span>
+            <span>d</span>
+            <span>a</span>
+            <span>r</span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+            <span>s</span>
+            <span>k</span>
+            <span>i</span>
+          </h1>
+          <h3>
+            <span>Front End</span> /<span> Web Apps</span> / <span>Javascript Developer</span>
+          </h3>
+        </div>
+        <div className="links">
+          <div className="row1">
+            <Link to="/projects/" className="linkBox">
+              <div>Projects</div>
+            </Link>
 
-								<HomePage/>
+            <Link to="/about/" className="linkBox">
+              <div>About Me</div>
+            </Link>
+          </div>
+          <div className="row2">
+            <a href="/CVMZFrontEnd.pdf" className="linkBox">
+              <div>Have a look at my CV</div>
+            </a>
 
-						</div>
-				);
-		}
+            <a href="/contact/" className="linkBox">
+              <div>Contact</div>
+            </a>
+          </div>
+        </div>
+      </div>
+    );
+  }
 }
 
 export default IndexPage;
