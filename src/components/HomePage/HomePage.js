@@ -5,7 +5,7 @@ import FloatWords from '../FloatWords/FloatWords';
 import './HomePage.scss';
 
 const HomePage = () => (
-  <div className="homepage">
+  <div className="homepage" id="home">
     <div className="names">
       <h1>
         <span className="initials">M</span>

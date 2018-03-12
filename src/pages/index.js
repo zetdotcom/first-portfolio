@@ -3,6 +3,10 @@ import Link from 'gatsby-link';
 
 import './index.scss';
 import '../components/HomePage/HomePage.scss';
+import HomePage from '../components/HomePage/HomePage';
+import About from '../components/About/About';
+import Contact from '../components/Contact/Contact';
+import Projects from '../components/Projects/Projects';
 
 class IndexPage extends React.Component {
   constructor(props) {
@@ -11,50 +15,11 @@ class IndexPage extends React.Component {
 
   render() {
     return (
-      <div className="homepage">
-        <div className="names">
-          <h1>
-            <span className="initials">M</span>
-            <span>i</span>
-            <span>c</span>
-            <span>h</span>
-            <span>a</span>
-            <span>l</span> <span className="initials">Z</span>
-            <span>a</span>
-            <span>d</span>
-            <span>a</span>
-            <span>r</span>
-            <span>n</span>
-            <span>o</span>
-            <span>w</span>
-            <span>s</span>
-            <span>k</span>
-            <span>i</span>
-          </h1>
-          <h3>
-            <span>Front End</span> /<span> Web Apps</span> / <span>Javascript Developer</span>
-          </h3>
-        </div>
-        <div className="links">
-          <div className="row1">
-            <Link to="/projects/" className="linkBox">
-              <div>Projects</div>
-            </Link>
-
-            <Link to="/about/" className="linkBox">
-              <div>About Me</div>
-            </Link>
-          </div>
-          <div className="row2">
-            <a href="/CVMZFrontEnd.pdf" className="linkBox">
-              <div>Have a look at my CV</div>
-            </a>
-
-            <a href="/contact/" className="linkBox">
-              <div>Contact</div>
-            </a>
-          </div>
-        </div>
+      <div>
+        <HomePage />
+        <Projects />
+        <About />
+        <Contact />
       </div>
     );
   }
