@@ -37,10 +37,10 @@
       flex-flow: column nowrap;
       min-height: 40%;
       border: 2px solid whitesmoke;
-      background: rgba(54, 54, 65, 0.562);
+      // background: rgba(54, 54, 65, 0.562);
       width: 50%;
-      min-width: 600px;
-      border-radius: 8px;
+      min-width: 500px;
+      // border-radius: 8px;
       padding: 25px 50px;
     }
     input,
@@ -48,9 +48,18 @@
     button {
       margin: 5px;
       padding: 5px;
+      background: transparent;
+      color: white;
+      border: none;
+      border-bottom: 1px solid rgb(255, 255, 255);
+    }
+    button {
+      cursor: pointer;
+      background: $orange;
+      border: none;
     }
     textarea {
-      height: 300px;
+      height: 200px;
     }
   }
 
@@ -65,8 +74,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      border: 1px solid whitesmoke;
-      border-radius: 8px;
+      // border: 1px solid whitesmoke;
+      // border-radius: 8px;
       // height: 100%;
       color: $fontLight;
     }

@@ -4,10 +4,17 @@ import { GoHome, GoKey, GoMicroscope, GoPerson, GoPlug, GoFileBinary, GoChecklis
 import Scrollspy from 'react-scrollspy';
 import './Navigation.scss';
 
+const checkUrl = () => {
+  console.log(window.location.href);
+  if (window.location.href !== '') {
+    // window.location.href = '#';
+  }
+};
+
 const Navigation = () => (
   <div className="nav">
-    <Scrollspy items={['home', 'projects', 'about', 'contact']} currentClassName="active">
-      <a href="#home" activeClassName="active">
+    <Scrollspy items={['home', 'projects', 'about', 'contact']} currentClassName="active" offset={-150}>
+      <a href="#home" onClick={checkUrl()}>
         <li>
           <div>
             <GoHome className="menuIcon" />
@@ -23,12 +30,20 @@ const Navigation = () => (
           <div className="desc">Projects</div>
         </li>
       </a>
-      <a href="#about" activeClassName="active">
+      <a href="#about">
         <li>
           <div>
             <GoPerson className="menuIcon" />
           </div>
           <div className="desc">About</div>
+        </li>
+      </a>
+      <a href="#contact" offset={550}>
+        <li>
+          <div>
+            <GoMail className="menuIcon" />
+          </div>
+          <div className="desc">Contact</div>
         </li>
       </a>
       <a href="/CVMZFrontEnd.pdf">
@@ -37,14 +52,6 @@ const Navigation = () => (
             <GoChecklist className="menuIcon" />
           </div>
           <div className="desc">CV</div>
-        </li>
-      </a>
-      <a href="#contact" activeClassName="active">
-        <li>
-          <div>
-            <GoMail className="menuIcon" />
-          </div>
-          <div className="desc">Contact</div>
         </li>
       </a>
     </Scrollspy>

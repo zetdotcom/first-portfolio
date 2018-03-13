@@ -26,9 +26,10 @@ const HomePage = () => (
         <span>i</span>
       </h1>
       <h3>
-        <span>Front End</span> /<span> Web Apps</span> / <span>Javascript Developer</span>
+        <span>Front End</span> / React / <span>Javascript Developer</span>
       </h3>
     </div>
+    {/*}
     <div className="links">
       <div className="row1">
         <Link to="/projects/" className="linkBox">
@@ -49,6 +50,7 @@ const HomePage = () => (
         </a>
       </div>
     </div>
+*/}
   </div>
 );
 

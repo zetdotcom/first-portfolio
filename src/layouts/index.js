@@ -34,20 +34,10 @@ const TemplateWrapper = ({ children }) => (
         }
       ]}
     />
-    <div>
-      <Navigation className="navi" />
+    <div className="navi">
+      <Navigation />
     </div>
-    <div
-      style={{
-        margin: '0 auto',
-
-        padding: '0px 1.0875rem 1.45rem',
-        paddingTop: 0
-      }}
-      className="kids"
-    >
-      {children()}
-    </div>
+    <div className="kids">{children()}</div>
   </div>
 );
 

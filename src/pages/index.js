@@ -20,6 +20,7 @@ class IndexPage extends React.Component {
         <Projects />
         <About />
         <Contact />
+        <div style={{ height: '40px', color: 'orange', marginLeft: '20px' }}>&#9400; 2018 zetdotcom</div>
       </div>
     );
   }

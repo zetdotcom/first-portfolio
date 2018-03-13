@@ -3,7 +3,7 @@
 @import '../../styles/variables.scss';
 
 .homepage {
-  height: 100vh;
+  height: 95vh;
   color: $orangeMain;
   .names {
     border-bottom: 1px solid rgba(79, 191, 219, 0.486);
@@ -13,6 +13,8 @@
     text-align: center;
     text-shadow: 1px 1px 30px black;
     z-index: 10;
+    top: 40%;
+    position: relative;
   }
   .row1,
   .row2 {
@@ -91,39 +93,39 @@
 // 	justify-content: center;
 // 	text-shadow: 2px 2px 2px black;
 // 	background: linear-gradient(to right rgba(1, 31, 75, 0.59), rgba(0, 90, 150, 0.5));
-// 	h1,
-// 	h3 {
-// 		font-family: 'Nanum Gothic Coding', monospace;
-// 		text-transform: uppercase;
-// 		letter-spacing: 1.5px;
-// 	}
-// 	h1 {
-// 		span {
-// 			transition: all 0.1s;
-// 			cursor: crosshair;
-// 		}
-// 		span:hover {
-// 			color: $orange;
-// 			font-size: 2em;
-// 		}
-// 		// font-size: 1.5rem;
-// 	}
+h1,
+h3 {
+  font-family: 'Nanum Gothic Coding', monospace;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+}
+h1 {
+  span {
+    transition: all 0.1s;
+    cursor: crosshair;
+  }
+  span:hover {
+    color: $orange;
+    font-size: 2em;
+  }
+  // font-size: 1.5rem;
+}
 
-// 	h3 {
-// 		span {
-// 			transition: all 0.2s;
-// 			cursor: crosshair;
-// 		}
-// 		span:hover {
-// 			color: $orange;
-// 			font-size: 1.2em;
-// 		}
-// 		// font-size: 1.5rem;
-// 	}
-// 	.initials {
-// 		font-weight: bold;
-// 		font-size: 2em;
-// 	}
-// }
+h3 {
+  span {
+    transition: all 0.2s;
+    cursor: crosshair;
+  }
+  span:hover {
+    color: $orange;
+    font-size: 1.2em;
+  }
+  // font-size: 1.5rem;
+}
+.initials {
+  font-weight: bold;
+  font-size: 2em;
+}
+
 //font-family: 'Nanum Gothic Coding', monospace;
 //font-family: 'Berkshire Swash', cursive;

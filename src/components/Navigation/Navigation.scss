@@ -8,14 +8,10 @@
   ul {
     list-style: none;
     text-transform: uppercase;
-    // height: 90vh;
     height: 100%;
-    // padding: 40px 20px;
-
     display: flex;
     margin: 0;
     flex-flow: column;
-    // justify-content: space-around;
     letter-spacing: 1px;
     transition: all 0.5s;
   }
@@ -35,14 +31,12 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 1px solid lightblue;
+
+    padding-top: 5px;
 
     border-radius: 8px;
   }
-  a:visited,
-  a:link {
-    color: $fontLight;
-  }
+
   .menuIcon {
     transition: transform 0.4s;
   }
@@ -70,7 +64,6 @@
       transform: scale(1.2);
     }
   }
-  // transform: scale(1.25);
 }
 
 @keyframes rotateY {
@@ -105,18 +98,15 @@
     bottom: 0;
     z-index: 400;
     width: 100%;
+    border-top: 1px solid $lightBlue;
     ul {
       list-style: none;
       text-transform: uppercase;
-      // height: 90vh;
       height: 70px;
-      // padding: 40px 20px;
       display: -webkit-box;
       display: -ms-flexbox;
       display: flex;
-      // margin: 0;
       flex-flow: row nowrap;
-      // justify-content: space-around;
       letter-spacing: 1px;
       transition: all 0.5s;
       a {
@@ -125,6 +115,29 @@
       }
       .desc {
         font-size: 0.85em;
+      }
+    }
+    a:hover {
+      li {
+        color: $orangeMain;
+        cursor: pointer;
+      }
+      .menuIcon {
+        transform: scale(1);
+      }
+      .desc {
+        animation: rotateX 0.4s ease-in-out;
+      }
+    }
+    .menuIcon {
+      font-size: 40px;
+    }
+  }
+  .active {
+    li {
+      color: $orangeMain;
+      .menuIcon {
+        transform: scale(1);
       }
     }
   }

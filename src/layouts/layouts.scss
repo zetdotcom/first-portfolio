@@ -7,82 +7,89 @@
   font-family: 'Nanum Gothic Coding', monospace;
 }
 .navi {
-  overflow: hidden;
+  // overflow: hidden;
+  position: fixed;
+  width: 100px;
 }
 .kids {
-  overflow-y: auto;
+  // overflow-y: auto;
+  margin-left: 100px;
 }
 .app {
   // height: 100vh;
   // overflow: hidden;
   display: flex;
   // height: 100%;
-  height: 100vh;
-  // overflow: auto;
-  background: linear-gradient(
-      to right,
-      rgba(1, 29, 72, 0.97) 120px,
-      rgba(39, 125, 223, 0.639),
-      rgba(150, 196, 229, 0.437)
-    ),
-    url(../../public/images/background.jpg);
-  background-size: cover;
-  // color: rgb(255, 191, 0);
-  background-position: center;
-  text-transform: uppercase;
-  background-attachment: fixed;
-}
-
-.container {
-  display: flex;
-  // height: 100%;
-  height: 100vh;
-  // overflow: auto;
-  background: linear-gradient(
-      to right,
-      rgba(1, 29, 72, 0.97) 120px,
-      rgba(39, 125, 223, 0.639),
-      rgba(150, 196, 229, 0.437)
-    ),
-    url(../../public/images/background.jpg);
-  background-size: cover;
-  // color: rgb(255, 191, 0);
-  background-position: center;
-  text-transform: uppercase;
-  background-attachment: fixed;
-  // overflow-y: hidden;
-
-  // background: linear-gradient(
-  //     to right,
-  //     rgba(1, 29, 72, 0.97) 120px,
-  //     rgba(39, 125, 223, 0.639),
-  //     rgba(150, 196, 229, 0.437)
-  //   ),
-  //   url(../../public/images/background.jpg);
-  // background-size: cover;
-  // background-position: center;
-  // background-attachment: fixed;
-}
-
-.content {
-  overflow-y: auto;
-  flex: 9;
   // height: 100vh;
-  z-index: 5;
+  // overflow: auto;
+  background: linear-gradient(
+      to right,
+      rgba(1, 29, 72, 0.97) 120px,
+      rgba(39, 125, 223, 0.639),
+      rgba(150, 196, 229, 0.437)
+    ),
+    url(../../public/images/background.jpg);
+  background-size: cover;
+  // color: rgb(255, 191, 0);
+  background-position: center;
+  text-transform: uppercase;
+  background-attachment: fixed;
 }
+
+// .container {
+//   display: flex;
+//   // height: 100%;
+//   height: 100vh;
+//   // overflow: auto;
+//   background: linear-gradient(
+//       to right,
+//       rgba(1, 29, 72, 0.97) 120px,
+//       rgba(39, 125, 223, 0.639),
+//       rgba(150, 196, 229, 0.437)
+//     ),
+//     url(../../public/images/background.jpg);
+//   background-size: cover;
+//   // color: rgb(255, 191, 0);
+//   background-position: center;
+//   text-transform: uppercase;
+//   background-attachment: fixed;
+//   // overflow-y: hidden;
+
+//   // background: linear-gradient(
+//   //     to right,
+//   //     rgba(1, 29, 72, 0.97) 120px,
+//   //     rgba(39, 125, 223, 0.639),
+//   //     rgba(150, 196, 229, 0.437)
+//   //   ),
+//   //   url(../../public/images/background.jpg);
+//   // background-size: cover;
+//   // background-position: center;
+//   // background-attachment: fixed;
+// }
+
+// .content {
+//   overflow-y: auto;
+//   flex: 9;
+//   // height: 100vh;
+//   z-index: 5;
+// }
 
 @media only screen and (max-width: 586px) {
-  .container {
-    flex-flow: column-reverse;
-  }
-  // .menu {
-  //   max-height: 70px;
-  //   flex: 1;
-  // }
-  .content {
-    flex: 9;
+  .navi {
+    position: relative;
     width: 100%;
-    overflow-x: hidden;
-    height: calc(100vh - 70px);
+    bottom: 0;
+    margin-bottom: 2px;
+  }
+  .kids {
+    width: 100vw;
+    margin: 0;
+    overflow-y: auto;
+  }
+  .app {
+    display: flex;
+    flex-direction: column-reverse;
+    height: 100vh;
+    width: 100vw;
   }
 }
