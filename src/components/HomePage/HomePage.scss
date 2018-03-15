@@ -7,9 +7,9 @@
   color: $orangeMain;
   .names {
     border-bottom: 1px solid rgba(79, 191, 219, 0.486);
-    background: linear-gradient(225deg, rgba(78, 210, 243, 0.201), rgba(11, 52, 173, 0.201));
+    background: linear-gradient(to top, rgba(78, 210, 243, 0.201), rgba(11, 52, 173, 0));
     padding: 10px;
-    height: 150px;
+    min-height: 150px;
     text-align: center;
     text-shadow: 1px 1px 30px black;
     z-index: 10;

@@ -4,17 +4,10 @@ import { GoHome, GoKey, GoMicroscope, GoPerson, GoPlug, GoFileBinary, GoChecklis
 import Scrollspy from 'react-scrollspy';
 import './Navigation.scss';
 
-const checkUrl = () => {
-  console.log(window.location.href);
-  if (window.location.href !== '') {
-    // window.location.href = '#';
-  }
-};
-
 const Navigation = () => (
   <div className="nav">
     <Scrollspy items={['home', 'projects', 'about', 'contact']} currentClassName="active" offset={-150}>
-      <a href="#home" onClick={checkUrl()}>
+      <a href="#home">
         <li>
           <div>
             <GoHome className="menuIcon" />

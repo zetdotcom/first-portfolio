@@ -6,6 +6,7 @@ import './HomePage.scss';
 
 const HomePage = () => (
   <div className="homepage" id="home">
+    <FloatWords />
     <div className="names">
       <h1>
         <span className="initials">M</span>
